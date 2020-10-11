@@ -1,0 +1,4 @@
+function action(event){
+  const {retweeted_status, id_str, screen_name, is_quote_status} = event;
+  const {name} = event.user;
+}
